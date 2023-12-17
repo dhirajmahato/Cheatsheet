@@ -22,6 +22,10 @@ Clauses    |  Query  | Usage
 |   |    |    |
 |   ROW_NUMBER(), RANK(), DENSE_RANK()| ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY sale_date) AS row_num, RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS rank_val,    DENSE_RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS dense_rank_val   | Each row is assigned a row number based on its order within its respective product partition.   |
 |  LEAD(), LAG()    | LEAD(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS next_revenue,    LAG(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS prev_revenue   |  ![image](https://github.com/dhirajmahato/Cheatsheet/assets/33785298/3d721717-2398-4dc0-a617-c05c2b1ca7d7)  |
+| DATE and its Operations|    |    |
+| formating   | SELECT YEAR(sale_date) AS sale_year, MONTH(sale_date) AS sale_month, DAY(sale_date) AS sale_day FROM sales;   |    |
+| DATEADD()   | SELECT sale_date, DATEADD(DAY, 7, sale_date) AS future_date FROM sales;    |    |
+| DATEDIFF()  | SELECT start_date, end_date, DATEDIFF(DAY, start_date, end_date) AS date_difference FROM date_ranges;    |    |
 
 
 **Common Table Expression vs Subquery**- Differ in scope of reference within a query
