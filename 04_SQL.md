@@ -19,8 +19,8 @@ Clauses    |  Query  | Usage
 | HAVING  |  SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; | when you want to filter the results of aggregate functions based on conditions after grouping. |
 | **Windows Functions** |SUM(), AVG(), ROW_NUMBER(), RANK(), DENSE_RANK(), LEAD(), LAG()| |
 |  SUM(), AVG()  |  SUM(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS running_total  |  running total of revenue for each product, ordered by sale date   |
-|  ROW_NUMBER()   |  ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY sale_date) AS row_num  |  Each row is assigned a row number based on its order within its respective product partition.  |
-|  RANK(), DENSE_RANK()| RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS rank_val,    DENSE_RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS dense_rank_val   |    |
+|   |    |    |
+|   ROW_NUMBER(), RANK(), DENSE_RANK()| ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY sale_date) AS row_num, RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS rank_val,    DENSE_RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS dense_rank_val   | Each row is assigned a row number based on its order within its respective product partition.   |
 |  LEAD(), LAG()    | LEAD(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS next_revenue,    LAG(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS prev_revenue   |  ![image](https://github.com/dhirajmahato/Cheatsheet/assets/33785298/3d721717-2398-4dc0-a617-c05c2b1ca7d7)  |
 
 
