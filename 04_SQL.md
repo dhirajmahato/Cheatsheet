@@ -18,3 +18,24 @@ Clauses    |  Query  | Usage
 | FILTER  | SELECT department,    AVG(salary) FILTER (WHERE salary > 50000) AS avg_high_salary,    AVG(salary) FILTER (WHERE salary >= 30000 AND salary <= 50000) AS avg_medium_salary,    AVG(salary) FILTER (WHERE salary < 30000) AS avg_low_salary FROM employees GROUP BY department; | when you want to apply conditions to the rows being aggregated within the aggregate function itself. |
 | HAVING  |  SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; | when you want to filter the results of aggregate functions based on conditions after grouping. |
 | **Windows Functions** | | |
+
+**Common Table Expression vs Subquery**- Differ in scope of reference within a query
+```
+-- CTE example
+WITH HighSalaryEmployees AS (
+    SELECT employee_id, employee_name, salary
+    FROM employees
+    WHERE salary > 50000
+)
+SELECT *
+FROM HighSalaryEmployees;
+
+-- Subquery example
+SELECT department_name
+FROM departments
+WHERE department_id IN (
+    SELECT department_id
+    FROM employees
+    WHERE salary > 50000
+);
+```
