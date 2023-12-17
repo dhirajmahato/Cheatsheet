@@ -13,7 +13,8 @@ Clauses    |  Query  | Usage
 | BETWEEN  | SELECT * FROM Orders WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31'; |  shows records between the given range |
 | CASE | CASE WHEN salary > 50000 THEN 'High Salary'  WHEN salary >= 30000 AND salary <= 50000 THEN 'Medium Salary'  ELSE 'Low Salary'  END AS salary_category|  categorical  conditional logical data segregation within a query |
 | ORDER BY |  SELECT name FROM Customers ORDER by name ASC | arrange the records in _name_ field in ascending order  |
-|  **Aggregate function** | |   |
-| GROUP BY | | |
-| FILTER  | SELECT department,    AVG(salary) FILTER (WHERE salary > 50000) AS avg_high_salary,    AVG(salary) FILTER (WHERE salary >= 30000 AND salary <= 50000) AS avg_medium_salary,    AVG(salary) FILTER (WHERE salary < 30000) AS avg_low_salary FROM employees GROUP BY department; | with aggregate functions to apply conditions to the rows being aggregated. |
-| HAVING  |  SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; | similar to WHERE clause |
+|  **Aggregate function** | MAX(), MIN(), COUNT(), AVG(), SUM()|   |
+| GROUP BY | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country| groups rows that have the same values |
+| FILTER  | SELECT department,    AVG(salary) FILTER (WHERE salary > 50000) AS avg_high_salary,    AVG(salary) FILTER (WHERE salary >= 30000 AND salary <= 50000) AS avg_medium_salary,    AVG(salary) FILTER (WHERE salary < 30000) AS avg_low_salary FROM employees GROUP BY department; | when you want to apply conditions to the rows being aggregated within the aggregate function itself. |
+| HAVING  |  SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; | when you want to filter the results of aggregate functions based on conditions after grouping. |
+| **Windows Functions** | | |
