@@ -17,7 +17,12 @@ Clauses    |  Query  | Usage
 | GROUP BY | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country| groups rows that have the same values |
 | FILTER  | SELECT department,    AVG(salary) FILTER (WHERE salary > 50000) AS avg_high_salary,    AVG(salary) FILTER (WHERE salary >= 30000 AND salary <= 50000) AS avg_medium_salary,    AVG(salary) FILTER (WHERE salary < 30000) AS avg_low_salary FROM employees GROUP BY department; | when you want to apply conditions to the rows being aggregated within the aggregate function itself. |
 | HAVING  |  SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; | when you want to filter the results of aggregate functions based on conditions after grouping. |
-| **Windows Functions** | | |
+| **Windows Functions** |SUM(), AVG(), ROW_NUMBER(), RANK(), DENSE_RANK(), LEAD(), LAG()| |
+|  SUM(), AVG()  |  SUM(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS running_total  |  running total of revenue for each product, ordered by sale date   |
+|  ROW_NUMBER()   |  ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY sale_date) AS row_num  |  Each row is assigned a row number based on its order within its respective product partition.  |
+|  RANK(), DENSE_RANK()| RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS rank_val,    DENSE_RANK() OVER (PARTITION BY product_id ORDER BY sale_date) AS dense_rank_val   |    |
+|  LEAD(), LAG()    | LEAD(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS next_revenue,    LAG(revenue) OVER (PARTITION BY product_id ORDER BY sale_date) AS prev_revenue   |  ![image](https://github.com/dhirajmahato/Cheatsheet/assets/33785298/3d721717-2398-4dc0-a617-c05c2b1ca7d7)  |
+
 
 **Common Table Expression vs Subquery**- Differ in scope of reference within a query
 ```
