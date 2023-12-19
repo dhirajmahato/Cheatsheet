@@ -7,6 +7,7 @@ Fact tables and dimension tables are key components of a schema in a data wareho
 |1. Dimension Table | 2. Fact Table    |
 |-------------------|------------------|
 |  Dimension tables, provide the context and background information for the measures recorded in the fact table. | A fact table contains records that combine attributes from different dimension tables.|
+| A dimension table usually has a primary key and descriptive columns. Each row represents a unique dimension member.  |A fact table contains foreign keys that link to the dimension tables and measures. |
 
 One of the main differences between fact tables and dimension tables is that dimension tables contain the attributes that the measures in the fact table are based on.
 
@@ -33,6 +34,9 @@ Clauses    |  Query  | Usage
 | DATEADD()   | SELECT sale_date, DATEADD(DAY, 7, sale_date) AS future_date FROM sales;    |    |
 | DATEDIFF()  | SELECT start_date, end_date, DATEDIFF(DAY, start_date, end_date) AS date_difference FROM date_ranges;    |    |
 
+**GROUP BY** is used to aggregate and summarize data at a higher level, reducing the number of rows returned by the query.
+
+**Window Functions** operate on the result set but do not reduce the number of rows; instead, they provide additional information about each row based on the defined window.
 
 **Common Table Expression vs Subquery**- Differ in scope of reference within a query
 ```
