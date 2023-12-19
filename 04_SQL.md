@@ -3,6 +3,12 @@ SQL stands for Structured Query Language
 
 Functionalities include: **creating** database, table, inserting records, **retrieve/read**, **update**, **delete** operations +  execute queries against a database.
 
+Fact tables and dimension tables are key components of a schema in a data warehouse
+|1. Dimension Table | 2. Fact Table    |
+|-------------------|------------------|
+|  Dimension tables, provide the context and background information for the measures recorded in the fact table. | A fact table contains records that combine attributes from different dimension tables.|
+
+One of the main differences between fact tables and dimension tables is that dimension tables contain the attributes that the measures in the fact table are based on.
 
 Clauses    |  Query  | Usage
 -------------|---------------------|---------------------|
