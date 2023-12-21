@@ -7,7 +7,7 @@ Datatypes:
 |Task | code |
 |----|-----|
 |importing| df=pd.read_csv() |
-|reading  | df.descibe <br/>  |
+|reading  | df.descibe <br/> df.columns <br/> df.shape  |
 |operations|  |
 |cleaning  |  |
 |aggregation and grouping|  |
