@@ -11,7 +11,7 @@ Datatypes:
 |reading  | df.descibe <br/> df.columns <br/> df.shape <br/> df.head() <br/> df.tail() |
 |operations|  |
 |cleaning  |  |
-|aggregation and grouping|  |
+|aggregation and grouping| df.groupby('column_name')  |
 |sorting  |  |
 |merging  |  |
 |apply function  |  |
