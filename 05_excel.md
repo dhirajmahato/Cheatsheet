@@ -4,4 +4,6 @@
 |----------|-------------|
 |Ctrl+D    | downfill |
 |Ctrl+R    | rightfill |
-|ctrl+shift++| create a new row/column|
+|Ctrl+space| select column of the active cell |
+|Ctrl+shift+space| select whole data |
+|Ctrl+shift++| create a new row/column|
