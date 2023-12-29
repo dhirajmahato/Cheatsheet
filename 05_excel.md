@@ -2,7 +2,7 @@
 
 |Shortcut  | operations  |
 |----------|-------------|
-|Ctrl+E    | Falsh fill |
+|Ctrl+E    | Flash fill |
 |Ctrl+D    | down fill |
 |Ctrl+R    | right fill |
 |Ctrl+space| select column of the active cell |
