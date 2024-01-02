@@ -27,5 +27,7 @@
 | =LEFT(A2, 3) or  =RIGHT(A2, 3) | returns the first 3 letter from left/ Right|
 | =MID(A2, 3, 6) | returns the mid letters  |
 | =CONCATENATE( A2, " ", B2)   | add two columns word  with a space in between|
+| =FIND("m", A2) having value - Mumbai |   returns 3 - position no of the letter |
+
 
 
