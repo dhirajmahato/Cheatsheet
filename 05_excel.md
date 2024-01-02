@@ -28,6 +28,9 @@
 | =MID(A2, 3, 6) | returns the mid letters  |
 | =CONCATENATE( A2, " ", B2)   | add two columns word  with a space in between|
 | =FIND("m", A2) having value - Mumbai |   returns 3 - position no of the letter |
-
-
+| **Date Functions**   |  |
+|=TODAY(),=NOW(), =DAY()/ =MONTH() / =YEAR() |  |
+| =EDATE(ref_date, num)   | addition and substraction with minus sign in num_value  |
+| =NETWORKDAYS(start_date, end_date, holidays) | get the no of working days  |
+| =DATEDIFF(start_date, end_date,"Y"/ "YM"/"MD") |  3 paramter gives the format of output |
 
