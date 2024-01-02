@@ -10,3 +10,4 @@
 |Ctrl+shift+space| select whole data |
 |Ctrl+shift++| create a new row/column|
 | Ctrl + ` | shows the forlmula underneath|
+| alt  | shows schortcuts |
