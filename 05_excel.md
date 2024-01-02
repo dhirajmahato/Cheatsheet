@@ -18,5 +18,10 @@
 |=IF(A2>200, "best", IF(A2>100,"avg", "fail"))   | Nested IF - for making categorical field |
 |=AND(D2>=0, D2<=100)   | returns TRUE and FALSE   |
 |=NOT(B2)  | returns opposite   |
-|=IFERROR(B2,"skip this")  | if error "skipp this" text displays |
-|
+|=IFERROR(B2,"skipp this")  | if error "skipp this" text displays |
+| **Text Functions**   |   |
+| =TRIM(A2)   | eleminate the unnessary space   |
+| =PROPER(A2)  | capitalise the 1st letter  of every word   |
+| =UPPER(A2)/LOWER(A2)    | Capitalise the alphabet   |
+| =LEN(A2)   | it count even the space in between  |
+
