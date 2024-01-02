@@ -22,6 +22,10 @@
 | **Text Functions**   |   |
 | =TRIM(A2)   | eleminate the unnessary space   |
 | =PROPER(A2)  | capitalise the 1st letter  of every word   |
-| =UPPER(A2)/LOWER(A2)    | Capitalise the alphabet   |
+| =UPPER(A2)or LOWER(A2)    | Capitalise the letters   |
 | =LEN(A2)   | it count even the space in between  |
+| =LEFT(A2, 3) or  =RIGHT(A2, 3) | returns the first 3 letter from left/ Right|
+| =MID(A2, 3, 6) | returns the mid letters  |
+| =CONCATENATE( A2, " ", B2)   | add two columns word  with a space in between|
+
 
