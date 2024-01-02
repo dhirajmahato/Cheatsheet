@@ -12,6 +12,10 @@
 | Ctrl + ` | shows the forlmula underneath|
 | alt  | shows schortcuts |
 | **logical test**  |  |
-|=if(A2>B2, Truecall, falsecall)   |  |
-|=if(A2>B2,  C2+D2, today() )  |  even have function within output | 
-|=if(A2>200, "best", If(A2>100,"avg", "fail"))   | Nested IF  |
+|=IF(A2>B2, Truecall, falsecall)   |  |
+|=IF(A2>B2,  C2+D2, today() )  |  even have function within output | 
+|=IF(A2>200, "best", IF(A2>100,"avg", "fail"))   | Nested IF - for making categorical field |
+|=AND(D2>=0, D2<=100)   | returns TRUE and FALSE   |
+|=NOT(B2)  | returns opposite   |
+|=IFERROR(B2,"skip this")  | if error "skipp this" text displays |
+|
