@@ -19,6 +19,8 @@
 |=AND(D2>=0, D2<=100)   | returns TRUE and FALSE   |
 |=NOT(B2)  | returns opposite   |
 |=IFERROR(B2,"skipp this")  | if error "skipp this" text displays |
+|=SUMIF(A2:A9, ">3", B2:B9)   | on condition put on column A summing over Column B  |
+|=COUNTIF(A2:A9, ">3") | instead of summming , it find out count here  |
 | **Text Functions**   |   |
 | =TRIM(A2)   | eleminate the unnessary space   |
 | =PROPER(A2)  | capitalise the 1st letter  of every word   |
