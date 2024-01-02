@@ -10,6 +10,7 @@
 |Ctrl+shift+space| select whole data |
 |Ctrl+shift++| create a new row/column|
 | Ctrl + ` | shows the forlmula underneath|
+| ctrl + [ | shows formulas dependency |
 | alt  | shows schortcuts |
 | **logical test**  |  |
 |=IF(A2>B2, Truecall, falsecall)   |  |
