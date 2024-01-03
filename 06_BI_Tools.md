@@ -7,6 +7,7 @@
 1. BI tools -  a bunch of KPIs, and getting updates on these metrics by email, pushing data throughout the organisation.
 2. look up user info without having to build custom admin pages
 3. Browser for the database
-4. Publishing Data
+4. A way to field frequently asked questions
+5. Publishing Data
 
 ## 
