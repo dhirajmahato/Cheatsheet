@@ -14,6 +14,7 @@
 | alt  | shows schortcuts |
 | ctrl+0 | hide column/row |
 | **logical test**  |  |
+|=FILTER(A2:A5, B2:B5 > 90)   |  filter A column based on condition on B column|
 |=IF(A2>B2, Truecall, falsecall)   |  |
 |=IF(A2>B2,  C2+D2, today() )  |  even have function within output | 
 |=IF(A2>200, "best", IF(A2>100,"avg", "fail"))   | Nested IF - for making categorical field |
@@ -40,4 +41,7 @@
 | =VLOOKUP(lookup_value, table, col_index) similarily HLOOKUP)( -do-) |  It then returns a value in the same row from a column you specify.  |
 | =XLOOKUP ( lookup_value (cell F2), lookup_array (range B2:B11), and return_array (range D2:D11)  )  | XLOOKUP uses a lookup array and a return array |
 | **Count Functions**  |  |
+| =COUNTIF(B2:B10, "Apple")  | count no of cell containing "Apple"  |
+| =COUNTIFS(B2:B5, ">=90", C2:C5, ">=90") | condition on multiple columns |
+
 
