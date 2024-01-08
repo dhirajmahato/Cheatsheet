@@ -12,6 +12,7 @@
 | Ctrl + ` | shows the forlmula underneath|
 | ctrl + [ | trace formula precedence |
 | alt  | shows schortcuts |
+| ctrl+0 | hide column/row |
 | **logical test**  |  |
 |=IF(A2>B2, Truecall, falsecall)   |  |
 |=IF(A2>B2,  C2+D2, today() )  |  even have function within output | 
@@ -38,5 +39,5 @@
 | **Lookup Functions** |  |
 | =VLOOKUP(lookup_value, table, col_index) similarily HLOOKUP)( -do-) |  It then returns a value in the same row from a column you specify.  |
 | =XLOOKUP ( lookup_value (cell F2), lookup_array (range B2:B11), and return_array (range D2:D11)  )  | XLOOKUP uses a lookup array and a return array |
-
+| **Count Functions**  |  |
 
