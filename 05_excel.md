@@ -15,6 +15,7 @@
 | ctrl+0 | hide column/row |
 | **logical test**  |  |
 |=FILTER(A2:A5, B2:B5 > 90)   |  filter A column based on condition on B column|
+|=UNIQUE(A2:B100)  | Ctrl + Shift + Enter is essential when working with array formulas like UNIQUE that produce dynamic arrays   |
 |=IF(A2>B2, Truecall, falsecall)   |  |
 |=IF(A2>B2,  C2+D2, today() )  |  even have function within output | 
 |=IF(A2>200, "best", IF(A2>100,"avg", "fail"))   | Nested IF - for making categorical field |
