@@ -11,4 +11,4 @@
 5. Publishing Data
 
 ## worksheet
-Use Metabase’s _query builder_ to filter and summarize data. Use the _Notebook editor_ to ask more sophisticated questions With custom expressions.
+Use Metabase’s _query builder_ to filter and summarize data. Use the _Notebook editor_ to ask more sophisticated questions With [_custom expressions_.](https://www.metabase.com/docs/latest/questions/query-builder/expressions-list)
