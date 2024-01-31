@@ -4,6 +4,8 @@ Node.js provides a set of asynchronous I/O primitives in its standard library.
 When Node.js performs an I/O operation, like reading from the network, accessing a database or the filesystem, instead of blocking the thread and wasting CPU cycles waiting, Node.js will resume the operations when the response comes back.
 This allows Node.js to handle thousands of concurrent connections with a single server without introducing the burden of managing thread concurrency.
 
+### how Node.js is used in different server-side applications and services:
+
 ## Node.js Applications
 - Web Servers and APIs: Node.js is commonly used to build web servers and APIs. It's lightweight and efficient, making it suitable for handling a large number of concurrent connections. Frameworks like Express.js provide a robust and flexible way to build RESTful APIs and web applications.
 
