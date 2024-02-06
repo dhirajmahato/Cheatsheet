@@ -10,4 +10,5 @@
 - [Node_js]()
 
 ### Process
--Data Preparation
+- Data Preparation: preparing data for ingestion into a data processing stream.
+- Normalizing data sets, which generally means scaling the data to values.
