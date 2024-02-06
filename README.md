@@ -11,4 +11,7 @@
 
 ### Process
 - Data Preparation: preparing data for ingestion into a data processing stream.
+  - df['Identifier'].is_unique
+  - df.set_index('Identifier', inplace=True)
+  - 
 - Normalizing data sets, which generally means scaling the data to values.
