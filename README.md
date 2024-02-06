@@ -9,13 +9,13 @@
 - [BI Tools](https://github.com/dhirajmahato/Cheatsheet/blob/32569b979673f6365cbad520cbbb1185e7dec09c/06_BI_Tools.md)
 - [Node_js]()
 
-### Process
-- Data Preparation: preparing data for ingestion into a data processing stream.
+### SOP
+- **Data Preparation**: preparing data for ingestion into a data processing stream.
   - df['Identifier'].is_unique
   - df.set_index('Identifier', inplace=True)
   - df.get_dtype_counts()
   - regular expression to extract our cleaned values
   - 
-- Normalizing data sets, which generally means scaling the data to values.
+- **Normalizing data sets**, which generally means scaling the data to values.
   - Convert to numerics 
   - 
