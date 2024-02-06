@@ -15,4 +15,7 @@
   - df.set_index('Identifier', inplace=True)
   - df.get_dtype_counts()
   - regular expression to extract our cleaned values
+  - 
 - Normalizing data sets, which generally means scaling the data to values.
+  - Convert to numerics 
+  - 
