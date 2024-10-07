@@ -19,3 +19,6 @@
 - **Normalizing data sets**, which generally means scaling the data to values.
   - Convert to numerics 
   - 
+
+
+### Data FLow
