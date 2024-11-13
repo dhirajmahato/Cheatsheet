@@ -9,4 +9,10 @@ By estimating the population parameters and quantifying the confidence in them, 
 1. Frequentist
 - P-value
 - Confidence interval
+
+Depending on the data distribution p-values we look out are: 
+- Normal distribution : mean, SD
+- exponential distribution: rate
+- gamma distribution: shape,rate
+
 2. Bayesian
