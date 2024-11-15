@@ -16,3 +16,5 @@ Depending on the data distribution p-values we look out are:
 - gamma distribution: shape,rate
 
 2. Bayesian
+
+## Statistical Inference in Business Strategy
