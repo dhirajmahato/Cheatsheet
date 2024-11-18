@@ -18,3 +18,5 @@ Depending on the data distribution p-values we look out are:
 2. Bayesian
 
 ## Statistical Inference in Business Strategy
+
+#### Likelihood : [url](https://youtu.be/XepXtl9YKwc)
