@@ -5,9 +5,7 @@
   - Numeric (int, float, complex)
   - str
   - bool
-  - list
-  - tuples
-  - dict
+  - Array (list, tuples, set, dict)
 2. **casting**
 3. 
 #### Functions
