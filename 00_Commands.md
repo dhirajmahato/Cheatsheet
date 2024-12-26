@@ -8,14 +8,15 @@
 7. brew update python3
 8. brew upgrade pyhton3
 9. pip --version   // >python -m pip install --user --upgrade pip// pip install virtualenv // python -m venv env
-10. ls(ubuntu/macOS) , dir (windows)
-11. pip install cookeiecutter-data-science  # for project structure
-12. git identity
+10. python.exe -m pip install --upgrade pip
+11. ls(ubuntu/macOS) , dir (windows)
+12. pip install cookeiecutter-data-science  # for project structure
+13. git identity
     ```
     git config --global user.name "Your Name"
     git config --global user.email "your.email@example.com"
     ```
-13. github SSH connection
+14. github SSH connection
     ```
     Generate an SSH Key:
     ssh-keygen -t ed25519 -C "dhiraj.mahato.iitbhu@gmail.com"
@@ -25,7 +26,7 @@
     Add the SSH Key to Your GitHub Account:
     cat ~/.ssh/id_ed25519.pub # copy from here and add a new ssh key in github account
     ```
-14. github push cmds for local repo
+15. github push cmds for local repo
     ```
     git init
     git add .
@@ -34,10 +35,10 @@
     git branch -M main
     git push -u origin main
     ```
- 15. git status
- 16. git remote set-url origin git@github.com:your-username/your-repository.git   #update remote url
- 17. git remote remove origin
- 18. Within Jupyter:  !pip install package_name
- 19. Python system location: where python
- 20. 
+ 16. git status
+ 17. git remote set-url origin git@github.com:your-username/your-repository.git   #update remote url
+ 18. git remote remove origin
+ 19. Within Jupyter:  !pip install package_name
+ 20. Python system location: where python
+ 21. 
 
