@@ -39,6 +39,7 @@
  17. git remote set-url origin git@github.com:your-username/your-repository.git   #update remote url
  18. git remote remove origin
  19. Within Jupyter:  !pip install package_name
- 20. Python system location: where python
- 21. 
+ 20. Python system location: where python, where pip   --> multiple Python environments or installations are present on your system, and each has its own associated pip.
+ 21. pip list, pip list --user
+ 22. python -m site         // for site_pakage 
 
