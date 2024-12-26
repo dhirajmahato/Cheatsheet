@@ -37,5 +37,7 @@
  15. git status
  16. git remote set-url origin git@github.com:your-username/your-repository.git   #update remote url
  17. git remote remove origin
-
+ 18. Within Jupyter:  !pip install package_name
+ 19. Python system location: where python
+ 20. 
 
