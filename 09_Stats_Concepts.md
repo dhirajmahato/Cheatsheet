@@ -1,4 +1,4 @@
-# Index
+# Stats
 
 Think of an example stats: A **population** represents every single liver cell (within which whatever you are measuring)
 
