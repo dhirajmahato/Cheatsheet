@@ -1,6 +1,10 @@
 
 # Transformers
 Theses are neural network architectures that rely heavily on **self-attention mechanisms** to model relationships between **tokens in sequences**.
+Transformers:
+- Are autogressive (next-token prediction) or encoder-decoder (input-output mapping)
+- Are fast at inference, but not always great at modeling fine structure in generation (e.g., pixel-by-pixel or token refinement)
+
 ## Types based on design architecture and purpose.
 1. **Encoder only**
 Great at understanding text (classification, embedding, etc.).
