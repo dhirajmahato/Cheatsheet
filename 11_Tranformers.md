@@ -55,4 +55,10 @@ Standard transformers scale poorly with long sequences.
 # LLMs
 LLMs are **trained transformer-based models** with billions of parameters. They're categorized based on openness, size, fine-tuning capability, and architecture.
 
+# Diffusion Model
+A diffusion model is a type of generative model that learns to create data (images, audio, text) by reversing a gradual noising process. Here's how it works:
+**Forward process**: Gradually adds noise to data over many steps until it becomes pure noise.
+**Reverse process (learning)**: Learns how to denoise step by step to recreate the original data from noise.
+
+Originally popular in image generation (e.g. Stable Diffusion, DALL·E 2), diffusion models are now being explored for text as well.
 
