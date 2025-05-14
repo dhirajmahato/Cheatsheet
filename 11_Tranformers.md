@@ -19,18 +19,18 @@ Suited for translation, summarization, question-answering.
   - BART (Bidirectional and Auto-Regressive Transformer)
   - mT5, MBART (multilingual variants)
 
-ADVANCED VARIATIONS & ARCHITECTURAL INNOVATIONS
+_ADVANCED VARIATIONS & ARCHITECTURAL INNOVATIONS_
 4. **Sparse Models / Mixture of Experts (MoE)**
 Only a subset of parameters are active per forward pass.
   - Improves compute efficiency.
   - Examples: Mixtral, GShard, Switch Transformer
 
-2. Retrieval-Augmented Generation (RAG)
+5. **Retrieval-Augmented Generation (RAG)**
 Combines transformer with external knowledge (e.g., vector DB).
   - Useful in enterprise knowledge applications.
   - Examples: GPT with RAG, Command R+, LLamaIndex setups
 
-3. Long-context Transformers
+6. **Long-context Transformers**
 Standard transformers scale poorly with long sequences.
   - Solutions include: sliding windows, recurrence, sparse attention.
   - Examples:Claude 3.5: Handles 200k+ tokens; Gemini 1.5 Pro: 1M context window, Longformer, BigBird, FlashAttention, RWKV
