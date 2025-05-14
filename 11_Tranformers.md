@@ -1,6 +1,6 @@
 
 # Transformers
-Theses are neural network architectures that rely heavily on **self-attention mechanisms**.
+Theses are neural network architectures that rely heavily on **self-attention mechanisms** to model relationships between **tokens in sequences**.
 ## Types based on design architecture and purpose.
 1. **Encoder only**
 Great at understanding text (classification, embedding, etc.).
