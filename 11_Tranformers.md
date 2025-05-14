@@ -20,6 +20,7 @@ Suited for translation, summarization, question-answering.
   - mT5, MBART (multilingual variants)
 
 _ADVANCED VARIATIONS & ARCHITECTURAL INNOVATIONS_
+
 4. **Sparse Models / Mixture of Experts (MoE)**
 Only a subset of parameters are active per forward pass.
   - Improves compute efficiency.
