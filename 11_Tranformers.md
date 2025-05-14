@@ -18,7 +18,4 @@ Theses are neural network architectures that rely heavily on **self-attention me
   - T5 (Text-to-Text Transfer Transformer)
   - BART (Bidirectional and Auto-Regressive Transformer)
   - mT5, MBART (multilingual variants)
-# Huggingface
-# pipelines
-## Dataset
-## Models
+
