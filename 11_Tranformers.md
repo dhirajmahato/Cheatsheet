@@ -20,6 +20,6 @@ Theses are neural network architectures that rely heavily on **self-attention me
   - mT5, MBART (multilingual variants)
 
 # LLMs
-LLMs are trained transformer-based models with billions of parameters. They're categorized based on openness, size, fine-tuning capability, and architecture.
+LLMs are **trained transformer-based models** with billions of parameters. They're categorized based on openness, size, fine-tuning capability, and architecture.
 
 
