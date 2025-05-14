@@ -36,6 +36,18 @@ Standard transformers scale poorly with long sequences.
   - Solutions include: sliding windows, recurrence, sparse attention.
   - Examples:Claude 3.5: Handles 200k+ tokens; Gemini 1.5 Pro: 1M context window, Longformer, BigBird, FlashAttention, RWKV
 
+## Usecases 
+
+| Task                                 | Best Model Type                |
+| ------------------------------------ | ------------------------------ |
+| Sentiment analysis, intent detection | Encoder-only (BERT)            |
+| Text generation, chatbot             | Decoder-only (GPT, LLaMA)      |
+| Translation, summarization           | Encoder-decoder (T5, BART)     |
+| Document Q\&A (RAG)                  | Decoder with retrieval         |
+| Multimodal Q\&A                      | GPT-4-Vision, Gemini           |
+| Domain-specific LLM                  | Fine-tuned LLaMA, Mistral, GPT |
+
+
 # LLMs
 LLMs are **trained transformer-based models** with billions of parameters. They're categorized based on openness, size, fine-tuning capability, and architecture.
 
