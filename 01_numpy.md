@@ -3,6 +3,7 @@ NumPy enables fast computation in Python, the underlying implementation is in C 
 
 #### Array
 ```arr = np.array([1, 2, 3, 4])```
+```arr2d = np.array([[1, 2, 3], [4, 5, 6]])```
 
 
 
