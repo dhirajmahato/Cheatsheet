@@ -32,6 +32,29 @@ arr * 2           # [2, 4, 6]
 arr ** 2          # [1, 4, 9]
 np.sqrt(arr)      # [1.0, 1.414, 1.732]
 ```
+#### indexing and silicing
+```
+arr2d = np.array([[10,20,30], [40,50,60]])
+
+arr2d[0,1]      # 20 (row 0, column 1)
+arr2d[:,1]      # [20,50] (all rows, column 1)
+arr2d[1,:]      # [40,50,60] (row 1, all columns)
+```
+
+#### Aggregations
+```
+arr.sum()         # sum of all elements
+arr.mean()        # average
+arr.max()         # maximum
+arr.min()         # minimum
+arr.std()         # standard deviation
+```
+
+#### Random
+```
+arr = np.arange(1,7)     # [1,2,3,4,5,6]
+arr.reshape(2,3)         # [[1,2,3],[4,5,6]]
+```
 
 
 
