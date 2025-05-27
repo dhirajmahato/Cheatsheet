@@ -24,7 +24,14 @@ np.linspace(0,1,5)   # [0.   0.25 0.5 0.75 1.0]
 np.eye(3)            # Identity matrix (3x3)
 ```
 
-
+#### Operations - imp - noloop need as numpy array is vectorised
+```
+arr = np.array([1, 2, 3])
+arr + 10          # [11, 12, 13]
+arr * 2           # [2, 4, 6]
+arr ** 2          # [1, 4, 9]
+np.sqrt(arr)      # [1.0, 1.414, 1.732]
+```
 
 
 
