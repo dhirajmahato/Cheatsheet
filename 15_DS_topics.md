@@ -6,3 +6,4 @@
   - What is a p-value?
   - What are Accuracy, Precision, and Recall?
   - Explain the Bias-Variance Tradeoff.
+  - How does a Random Forest algorithm work?
