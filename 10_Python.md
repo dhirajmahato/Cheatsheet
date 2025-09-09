@@ -1,4 +1,4 @@
-## Python
+## Python Code Snippets
 
 #### Datatypes
 1. **type(x)** - function will return the datatype of the variable x
