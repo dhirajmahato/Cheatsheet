@@ -10,3 +10,6 @@ CNN architechture
 4. Inception,
 5. ResNet,
 6. XCeption
+
+
+## AI evals
