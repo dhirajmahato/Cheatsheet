@@ -11,5 +11,6 @@ CNN architechture
 5. ResNet,
 6. XCeption
 
-
+Determinstic vs Non determinstic 
+Non-deterministic outputs: The same prompt can generate dozens of valid responses. Your eval system needs to assess quality across this spectrum of possibilities, not just check for exact matches.
 ## AI evals
