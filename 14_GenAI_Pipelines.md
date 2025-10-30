@@ -11,6 +11,13 @@ CNN architechture
 5. ResNet,
 6. XCeption
 
-Determinstic vs Non determinstic 
+Determinstic vs Non determinstic
+
 Non-deterministic outputs: The same prompt can generate dozens of valid responses. Your eval system needs to assess quality across this spectrum of possibilities, not just check for exact matches.
+
 ## AI evals
+Scope of Evaluation
+1. LLM Model Evaluation
+  - ocuses on measuring the general language understanding of foundational LLMs using benchmark datasets eg: MMLU, _Humaneval_  
+2. LLM System Evaluation
+  - how well the entire application, including the LLM, performs in the context of business goals or user workflows.
