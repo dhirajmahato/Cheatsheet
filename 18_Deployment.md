@@ -13,3 +13,20 @@ Modernizing monolithic architecture through Docker containers helps with scalabi
 
 You may manually generate images with a Dockerfile, which is a text document that contains all of the instructions needed to produce a Docker image. You can also use the command docker pull [name] to grab images from a central repository known as a registry or from repositories such as Docker Hub.
 - **Docker Container**  is a running instance of a Docker image.
+  
+        Docker Image (Blueprint)
+        -------------------------
+        |  App Code            |
+        |  Runtime (Python)    |
+        |  Libraries           |
+        |  OS-level files      |
+        -------------------------
+                 ↓
+        docker run
+                 ↓
+        Docker Container (Running App)
+        -------------------------------
+        |  Running Process            |
+        |  Isolated Environment       |
+        |  Uses Host OS Kernel        |
+        -------------------------------
