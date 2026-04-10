@@ -10,4 +10,6 @@ Modernizing monolithic architecture through Docker containers helps with scalabi
 
 - **Dockerfiles** are collections of instructions that instruct you on creating a specific Docker image.
 - **Docker Image** an image a blueprint or picture of what will be in a container when it is operational. Images include the application’s code, or binary, runtimes, libraries, and other filesystem items. 
+
+You may manually generate images with a Dockerfile, which is a text document that contains all of the instructions needed to produce a Docker image. You can also use the command docker pull [name] to grab images from a central repository known as a registry or from repositories such as Docker Hub.
 - **Docker Container** 
